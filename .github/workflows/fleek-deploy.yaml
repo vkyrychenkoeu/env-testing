@@ -16,6 +16,6 @@ jobs:
       - name: Install Fleek CLI
         run: npm i -g @fleekxyz/cli
       - name: Install Packages
-        run: yarn run build
+        run: npm install -g yarn && yarn install
       - name: Build & deploy sites
         run: fleek sites deploy
