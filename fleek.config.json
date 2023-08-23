@@ -1,9 +1,0 @@
-{
-  "sites": [
-    {
-      "slug": "dirty-howling-telephone",
-      "distDir": "dist",
-      "buildCommand": "yarn run build"
-    }
-  ]
-}
